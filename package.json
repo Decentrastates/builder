@@ -122,7 +122,7 @@
     "start:website": "node scripts/start.js",
     "build:scene": "decentraland-compiler buildScene.json",
     "build:contracts": "npx web3x-codegen",
-    "build": "npm run postinstall && npm run build:scene && node scripts/build.js",
+    "build": "npm run postinstall && npm run build:scene && node --max_old_space_size=4096 scripts/build.js",
     "build:ci": "npm run lint && npm run build",
     "postbuild": "node scripts/postbuild.js",
     "test": "node scripts/test.js",
