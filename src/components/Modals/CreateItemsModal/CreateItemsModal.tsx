@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { ModalNavigation } from 'decentraland-ui'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { ModalNavigation } from 'decentrastates-ui'
+import Modal from 'decentrastates-dapps/dist/containers/Modal'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { Props } from './CreateItemsModal.types'
 import styles from './CreateItemsModal.module.css'
 

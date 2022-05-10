@@ -1,5 +1,5 @@
-import { loadingReducer, LoadingState } from 'decentraland-dapps/dist/modules/loading/reducer'
-import { DataByKey } from 'decentraland-dapps/dist/lib/types'
+import { loadingReducer, LoadingState } from 'decentrastates-dapps/dist/modules/loading/reducer'
+import { DataByKey } from 'decentrastates-dapps/dist/lib/types'
 
 import { DELETE_PROJECT, DeleteProjectAction } from 'modules/project/actions'
 import {

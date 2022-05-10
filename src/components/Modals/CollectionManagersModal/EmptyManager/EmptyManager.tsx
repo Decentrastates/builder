@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Form, Field, Button } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Form, Field, Button } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import { isValid } from 'lib/address'
 import { Props, State } from './EmptyManager.types'

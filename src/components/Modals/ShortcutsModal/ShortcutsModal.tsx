@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Close } from 'decentraland-ui'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Close } from 'decentrastates-ui'
+import Modal from 'decentrastates-dapps/dist/containers/Modal'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import Chip from 'components/Chip'
 import { Shortcut, ShortcutDefinition, SimpleShortcut } from 'modules/keyboard/types'

@@ -1,5 +1,5 @@
-import { LoadingState, loadingReducer } from 'decentraland-dapps/dist/modules/loading/reducer'
-import { ModelById } from 'decentraland-dapps/dist/lib/types'
+import { LoadingState, loadingReducer } from 'decentrastates-dapps/dist/modules/loading/reducer'
+import { ModelById } from 'decentrastates-dapps/dist/lib/types'
 
 import { PoolGroup } from './types'
 import {

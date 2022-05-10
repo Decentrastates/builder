@@ -1,9 +1,9 @@
 import * as React from 'react'
-import { Row, Column, Section, Narrow, InputOnChangeData, Header, Form, Field, Button, Mana, Radio, Popup } from 'decentraland-ui'
+import { Row, Column, Section, Narrow, InputOnChangeData, Header, Form, Field, Button, Mana, Radio, Popup } from 'decentrastates-ui'
 import { Network } from '@dcl/schemas'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { getTokenAmountToApprove } from 'decentraland-dapps/dist/modules/authorization/utils'
-import { NetworkButton, NetworkCheck, TransactionLink } from 'decentraland-dapps/dist/containers'
+import { T, t } from 'decentrastates-dapps/dist/modules/translation/utils'
+import { getTokenAmountToApprove } from 'decentrastates-dapps/dist/modules/authorization/utils'
+import { NetworkButton, NetworkCheck, TransactionLink } from 'decentrastates-dapps/dist/containers'
 import Back from 'components/Back'
 import LoggedInDetailPage from 'components/LoggedInDetailPage'
 import { locations } from 'routing/locations'
@@ -120,7 +120,7 @@ export default class ClaimENSPage extends React.PureComponent<Props, State> {
                         </>
                       ),
                       dclWorldLink: (
-                        <a href="http://play.decentraland.org" rel="noopener noreferrer" target="_blank">
+                        <a href="http://play.ftc.tc" rel="noopener noreferrer" target="_blank">
                           {t('claim_ens_page.world')}
                         </a>
                       ),

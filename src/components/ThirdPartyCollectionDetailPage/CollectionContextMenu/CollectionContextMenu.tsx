@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Dropdown, Button, Icon, Popup } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Dropdown, Button, Icon, Popup } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { getCollectionEditorURL, getExplorerURL, isLocked } from 'modules/collection/utils'
 import { CreateOrEditMultipleItemsModalType } from 'components/Modals/CreateAndEditMultipleItemsModal/CreateAndEditMultipleItemsModal.types'
 import ConfirmDelete from 'components/ConfirmDelete'

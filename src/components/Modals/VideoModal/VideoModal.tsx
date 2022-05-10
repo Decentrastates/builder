@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { Close } from 'decentraland-ui'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Close } from 'decentrastates-ui'
+import { ModalProps } from 'decentrastates-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import Modal from 'decentrastates-dapps/dist/containers/Modal'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import './VideoModal.css'
 

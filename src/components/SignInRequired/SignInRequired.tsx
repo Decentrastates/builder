@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Center } from 'decentraland-ui'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Center } from 'decentrastates-ui'
+import { t, T } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { Link } from 'react-router-dom'
 
 import { locations } from 'routing/locations'

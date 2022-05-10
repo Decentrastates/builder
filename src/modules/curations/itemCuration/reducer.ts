@@ -1,4 +1,4 @@
-import { loadingReducer, LoadingState } from 'decentraland-dapps/dist/modules/loading/reducer'
+import { loadingReducer, LoadingState } from 'decentrastates-dapps/dist/modules/loading/reducer'
 import { FinishTPApprovalFlowAction, FINISH_TP_APPROVAL_FLOW } from 'modules/collection/actions'
 import {
   PublishAndPushChangesThirdPartyItemsFailureAction,

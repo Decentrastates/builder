@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Header, Section } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Header, Section } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import SidebarCollection from './SidebarCollection'
 import { Props } from './Collections.types'
 import './Collections.css'

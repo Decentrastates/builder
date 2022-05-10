@@ -10,7 +10,7 @@ let statsPromise:
 class AnalyticsAPI {
   async fetchWeeklyStats(base: string) {
     if (!statsPromise) {
-      statsPromise = fetch('https://cdn-data.decentraland.org/scenes/scene-stats.json').then(resp => resp.json())
+      statsPromise = fetch('https://cdn-data.ftc.tc/scenes/scene-stats.json').then(resp => resp.json())
     }
     const json = await statsPromise
     const stats = base in json ? json[base]['last_7d'] : null

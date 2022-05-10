@@ -1,11 +1,11 @@
 import { all } from 'redux-saga/effects'
-import { CatalystClient } from 'dcl-catalyst-client'
+import { CatalystClient } from 'dcs-catalyst-client'
 import { BuilderClient } from '@dcl/builder-client'
 
-import { createProfileSaga } from 'decentraland-dapps/dist/modules/profile/sagas'
-import { transactionSaga } from 'decentraland-dapps/dist/modules/transaction/sagas'
-import { authorizationSaga } from 'decentraland-dapps/dist/modules/authorization/sagas'
-import { toastSaga } from 'decentraland-dapps/dist/modules/toast/sagas'
+import { createProfileSaga } from 'decentrastates-dapps/dist/modules/profile/sagas'
+import { transactionSaga } from 'decentrastates-dapps/dist/modules/transaction/sagas'
+import { authorizationSaga } from 'decentrastates-dapps/dist/modules/authorization/sagas'
+import { toastSaga } from 'decentrastates-dapps/dist/modules/toast/sagas'
 
 import { analyticsSaga } from 'modules/analytics/sagas'
 import { assetPackSaga } from 'modules/assetPack/sagas'

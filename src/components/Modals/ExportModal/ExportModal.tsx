@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Button } from 'decentraland-ui'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
+import { Button } from 'decentrastates-ui'
+import { T, t } from 'decentrastates-dapps/dist/modules/translation/utils'
+import Modal from 'decentrastates-dapps/dist/containers/Modal'
 
 import { Props } from './ExportModal.types'
 import './ExportModal.css'
@@ -31,7 +31,7 @@ export default class ExportModal extends React.PureComponent<Props> {
               id="export_modal.description"
               values={{
                 sdk_link: (
-                  <a href="https://developers.decentraland.org" rel="noopener noreferrer" target="_blank">
+                  <a href="https://developers.ftc.tc" rel="noopener noreferrer" target="_blank">
                     Decentraland SDK
                   </a>
                 )

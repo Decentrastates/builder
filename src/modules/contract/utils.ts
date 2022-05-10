@@ -1,4 +1,4 @@
-import { ContractName, getContractName } from 'decentraland-transactions'
+import { ContractName, getContractName } from 'decentrastates-transactions'
 
 export function getContractSymbol(address: string) {
   const contractName = getContractName(address)

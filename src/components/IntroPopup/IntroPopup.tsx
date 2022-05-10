@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
-import { Button, Column, Header, Popup } from 'decentraland-ui'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Button, Column, Header, Popup } from 'decentrastates-ui'
+import { T, t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { env } from 'decentraland-commons'
 import { Props, State } from './IntroPopup.types'
 import './IntroPopup.css'
@@ -40,13 +40,13 @@ export default class IntroPopup extends PureComponent<Props, State> {
                       </>
                     ),
                     blog_link: (
-                      <a href="https://decentraland.org/blog/announcements/polygon-mana/" target="_blank" rel="noopener noreferrer">
+                      <a href="https://ftc.tc/blog/announcements/polygon-mana/" target="_blank" rel="noopener noreferrer">
                         {t('intro_popup.blog_link')}
                       </a>
                     ),
                     account_link: (
                       <a
-                        href={env.get('REACT_APP_ACCOUNT_URL', 'https://account.decentraland.org')}
+                        href={env.get('REACT_APP_ACCOUNT_URL', 'https://account.ftc.tc')}
                         target="_blank"
                         rel="noopener noreferrer"
                       >

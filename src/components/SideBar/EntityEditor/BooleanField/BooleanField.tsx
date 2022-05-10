@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Radio, RadioProps } from 'decentraland-ui'
+import { Radio, RadioProps } from 'decentrastates-ui'
 import { Props } from './BooleanField.types'
 import './BooleanField.css'
 

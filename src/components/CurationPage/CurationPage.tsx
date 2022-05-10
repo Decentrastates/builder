@@ -1,6 +1,6 @@
 import React from 'react'
-import { Row, Column, Section, Container, Dropdown, Pagination, Empty, TextFilter, Table } from 'decentraland-ui'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Row, Column, Section, Container, Dropdown, Pagination, Empty, TextFilter, Table } from 'decentrastates-ui'
+import { T, t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { getCollectionCurationState } from 'modules/curations/collectionCuration/utils'
 import Profile from 'components/Profile'
 import NotFound from 'components/NotFound'

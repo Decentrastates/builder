@@ -1,6 +1,6 @@
 import React from 'react'
-import { Dropdown, DropdownItemProps, DropdownProps } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Dropdown, DropdownItemProps, DropdownProps } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { getName, filterWearables } from 'modules/editor/utils'
 import { Props } from './AvatarWearableDropdown.types'
 

@@ -1,4 +1,4 @@
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Wallet } from 'decentrastates-dapps/dist/modules/wallet/types'
 import { Collection } from 'modules/collection/types'
 import { CollectionCuration } from 'modules/curations/collectionCuration/types'
 import { CurationStatus } from 'modules/curations/types'

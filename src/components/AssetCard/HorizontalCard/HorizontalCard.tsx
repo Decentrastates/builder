@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Header } from 'decentraland-ui'
+import { Header } from 'decentrastates-ui'
 import { Props } from './HorizontalCard.types'
 import './HorizontalCard.css'
 

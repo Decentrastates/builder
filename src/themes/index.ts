@@ -1,8 +1,8 @@
 // Base
-import 'decentraland-ui/lib/styles.css'
+import 'decentrastates-ui/lib/styles.css'
 
 // Theme
-import 'decentraland-ui/lib/dark-theme.css'
+import 'decentrastates-ui/lib/dark-theme.css'
 
 // Override third party Component styles here:
 import './components/Grid.css'

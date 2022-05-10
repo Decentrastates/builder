@@ -13,8 +13,8 @@ import {
   Narrow,
   Section,
   Header
-} from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+} from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import Footer from 'components/Footer'
 import Navbar from 'components/Navbar'
