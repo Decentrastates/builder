@@ -1,4 +1,4 @@
-import { Wearable } from 'decentraland-ecs'
+import { Wearable } from 'decentrastates-ecs'
 import { WearableBodyShape, WearableCategory } from 'modules/item/types'
 import { getSkinHiddenCategories } from 'modules/item/utils'
 import { convertWearable, wearable, catalystWearable } from 'specs/editor'

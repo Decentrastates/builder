@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Color4, Wearable } from 'decentraland-ecs'
+import { Color4, Wearable } from 'decentrastates-ecs'
 import { Dropdown, DropdownProps, Popup, Icon } from 'decentrastates-ui'
 import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import ViewPort from 'components/ViewPort'

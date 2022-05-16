@@ -1,4 +1,4 @@
-import { Wearable } from 'decentraland-ecs'
+import { Wearable } from 'decentrastates-ecs'
 import { createSelector } from 'reselect'
 
 import { RootState } from 'modules/common/types'

@@ -45,6 +45,7 @@
     "decentraland-experiments": "^1.0.2",
     "decentraland-transactions": "^1.37.0",
     "decentraland-ui": "^3.21.0",
+    "decentrastates-ecs": "^6.6.1-20201020183014.commit-bdc29ef",
     "decentrastates-dapps": "^12.47.0-ftc",
     "decentrastates-transactions": "^1.37.0-ftc",
     "decentrastates-ui": "^3.21.1-ftc",

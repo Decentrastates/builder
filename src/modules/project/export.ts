@@ -4,7 +4,7 @@ import Dockerfile from '!raw-loader!decentraland/samples/ecs/Dockerfile'
 import builderChannelRaw from 'raw-loader!decentraland-builder-scripts/lib/channel'
 // @ts-ignore
 import builderInventoryRaw from 'raw-loader!decentraland-builder-scripts/lib/inventory'
-import * as ECS from 'decentraland-ecs'
+import * as ECS from 'decentrastates-ecs'
 import { SceneWriter, LightweightWriter } from 'dcl-scene-writer'
 import packageJson from 'decentraland/samples/ecs/package.json'
 import sceneJsonSample from 'decentraland/samples/ecs/scene.json'
@@ -79,7 +79,7 @@ export async function createGameFile(args: { project: Project; scene: Scene; rot
   const { scene, project, rotation } = args
   const useLightweight = isDeploy && !hasScripts(scene)
   const Writer = useLightweight ? LightweightWriter : SceneWriter
-  const writer = new Writer(ECS, require('decentraland-ecs/types/dcl/decentraland-ecs.api'))
+  const writer = new Writer(ECS, require('decentrastates-ecs/types/dcl/decentraland-ecs.api'))
   const { cols, rows } = project.layout
   const sceneEntity = new ECS.Entity()
 

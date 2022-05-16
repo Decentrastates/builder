@@ -1,4 +1,4 @@
-import { Wearable } from 'decentraland-ecs'
+import { Wearable } from 'decentrastates-ecs'
 import { WearableBodyShape, WearableCategory } from 'modules/item/types'
 
 export type Props = {
