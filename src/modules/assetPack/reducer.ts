@@ -1,5 +1,5 @@
-import { loadingReducer, LoadingState } from 'decentraland-dapps/dist/modules/loading/reducer'
-import { ModelById } from 'decentraland-dapps/dist/lib/types'
+import { loadingReducer, LoadingState } from 'decentrastates-dapps/dist/modules/loading/reducer'
+import { ModelById } from 'decentrastates-dapps/dist/lib/types'
 import { AssetPack, ProgressStage } from 'modules/assetPack/types'
 import {
   LoadAssetPacksRequestAction,

@@ -1,5 +1,5 @@
 import { ChainId } from '@dcl/schemas'
-import * as dappsEth from 'decentraland-dapps/dist/lib/eth'
+import * as dappsEth from 'decentrastates-dapps/dist/lib/eth'
 import { env } from 'decentraland-commons'
 import { buildCatalystItemURN, buildThirdPartyURN } from 'lib/urn'
 import { Item, WearableBodyShape } from 'modules/item/types'
@@ -172,7 +172,7 @@ describe('when getting the rarities contract', () => {
     })
 
     it('should return the original rarities contract', () => {
-      expect(getRaritiesContract(ChainId.MATIC_MUMBAI).address).toEqual('0x8eabF06f6cf667915bfF30138be70543bCE2901A')
+      expect(getRaritiesContract(ChainId.MATIC_MUMBAI).address).toEqual('0x2c52ea39acc70703e795bbff7d9a5993b93ae5f6')
     })
   })
 
@@ -182,7 +182,7 @@ describe('when getting the rarities contract', () => {
     })
 
     it('should return the original rarities contract', () => {
-      expect(getRaritiesContract(ChainId.MATIC_MUMBAI).address).toEqual('0xb9957735bbe6D42585058Af11AA72da8eAD9043a')
+      expect(getRaritiesContract(ChainId.MATIC_MUMBAI).address).toEqual('0x7a52734a069f2a391301e72822ca05fc4bdf9388')
     })
   })
 })

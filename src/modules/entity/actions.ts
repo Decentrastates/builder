@@ -1,6 +1,6 @@
 import { action } from 'typesafe-actions'
-import { DeploymentPreparationData } from 'dcl-catalyst-client'
-import { Entity, EntityType } from 'dcl-catalyst-commons'
+import { DeploymentPreparationData } from 'dcs-catalyst-client'
+import { Entity, EntityType } from 'dcs-catalyst-commons'
 
 // Fetch Entities By Pointers
 export const FETCH_ENTITIES_BY_POINTERS_REQUEST = '[Request] Fetch Entities By Pointers'

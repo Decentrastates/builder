@@ -14,9 +14,9 @@ import {
   InputOnChangeData,
   SelectField,
   DropdownProps
-} from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
+} from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
+import Modal from 'decentrastates-dapps/dist/containers/Modal'
 import { cleanAssetName } from 'modules/asset/utils'
 import { blobToDataURL, dataURLToBlob, convertImageIntoWearableThumbnail } from 'modules/media/utils'
 import {
@@ -445,7 +445,7 @@ export default class CreateSingleItemModal extends React.PureComponent<Props, St
     this.setState({ error: error.message })
   }
 
-  handleOpenDocs = () => window.open('https://docs.decentraland.org/3d-modeling/3d-models/', '_blank')
+  handleOpenDocs = () => window.open('https://docs.ftc.tc/3d-modeling/3d-models/', '_blank')
 
   handleNameChange = (_event: React.ChangeEvent<HTMLInputElement>, props: InputOnChangeData) =>
     this.setState({ name: props.value.slice(0, ITEM_NAME_MAX_LENGTH) })

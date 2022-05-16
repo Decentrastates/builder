@@ -1,6 +1,6 @@
 import { call, select } from '@redux-saga/core/effects'
-import { getProfileOfAddress } from 'decentraland-dapps/dist/modules/profile/selectors'
-import { Profile } from 'decentraland-dapps/dist/modules/profile/types'
+import { getProfileOfAddress } from 'decentrastates-dapps/dist/modules/profile/selectors'
+import { Profile } from 'decentrastates-dapps/dist/modules/profile/types'
 import { BuilderAPI } from 'lib/api/builder'
 import { getCollection } from 'modules/collection/selectors'
 import { Collection } from 'modules/collection/types'
@@ -34,7 +34,7 @@ describe('when setting a new curation assignee successfully', () => {
   beforeEach(() => {
     mockedCollection = {
       id: 'anId',
-      forumLink: 'https://forum.decentraland.org/t/collection-cucos-created-by-MrCuco-is-ready-for-review/10713'
+      forumLink: 'https://forum.ftc.tc/t/collection-cucos-created-by-MrCuco-is-ready-for-review/10713'
     } as Collection
     mockedCuration = {
       id: 'curationId',
@@ -64,7 +64,7 @@ describe('when creating the new assignee forum post', () => {
   beforeEach(() => {
     mockedCollection = {
       id: 'anId',
-      forumLink: 'https://forum.decentraland.org/t/collection-cucos-created-by-MrCuco-is-ready-for-review/10713'
+      forumLink: 'https://forum.ftc.tc/t/collection-cucos-created-by-MrCuco-is-ready-for-review/10713'
     } as Collection
     mockedCuration = {
       id: 'curationId',

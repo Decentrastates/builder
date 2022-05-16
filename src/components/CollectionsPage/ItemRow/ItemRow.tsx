@@ -1,6 +1,6 @@
 import React from 'react'
-import { Table } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Table } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { locations } from 'routing/locations'
 import ItemImage from 'components/ItemImage'
 import ItemStatus from 'components/ItemStatus'

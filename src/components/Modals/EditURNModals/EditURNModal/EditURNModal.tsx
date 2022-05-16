@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { ModalNavigation, ModalContent, ModalActions, Button, Field, InputOnChangeData, Form, Message } from 'decentraland-ui'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { ModalNavigation, ModalContent, ModalActions, Button, Field, InputOnChangeData, Form, Message } from 'decentrastates-ui'
+import Modal from 'decentrastates-dapps/dist/containers/Modal'
+import { getAnalytics } from 'decentrastates-dapps/dist/modules/analytics/utils'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { DecodedURN, decodeURN, isThirdParty, URNType } from 'lib/urn'
 import { Props, State } from './EditURNModal.types'
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Button, Modal } from 'decentraland-ui'
+import { T, t } from 'decentrastates-dapps/dist/modules/translation/utils'
+import { Button, Modal } from 'decentrastates-ui'
 import { Props } from './ConfirmApprovalModal.types'
 import Profile from 'components/Profile'
 import './ConfirmApprovalModal.css'

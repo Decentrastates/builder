@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Link } from 'react-router-dom'
-import { Button, Card, Confirm } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Button, Card, Confirm } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import { OptionsDropdown } from '../../OptionsDropdown'
 import { locations } from 'routing/locations'

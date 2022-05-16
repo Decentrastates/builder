@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Loader } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Loader } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { sortByName } from 'lib/sort'
 import { isThirdParty } from 'lib/urn'
 import { Collection, CollectionType } from 'modules/collection/types'

@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Button } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Button } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { Props, DefaultProps } from './DeployContestButton.types'
 import './DeployContestButton.css'
 

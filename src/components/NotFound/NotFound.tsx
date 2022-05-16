@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Center } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Center } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 export default function NotFound() {
   return (

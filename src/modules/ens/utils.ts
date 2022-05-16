@@ -1,4 +1,4 @@
-import { Entity } from 'dcl-catalyst-commons'
+import { Entity } from 'dcs-catalyst-commons'
 import { Address } from 'web3x/address'
 import { fromWei } from 'web3x/utils'
 import { PEER_URL, getCatalystContentUrl } from 'lib/api/peer'

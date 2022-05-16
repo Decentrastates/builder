@@ -1,6 +1,6 @@
 import { ChainId } from '@dcl/schemas'
-import { AuthorizationType } from 'decentraland-dapps/dist/modules/authorization/types'
-import { ContractName } from 'decentraland-transactions'
+import { AuthorizationType } from 'decentrastates-dapps/dist/modules/authorization/types'
+import { ContractName } from 'decentrastates-transactions'
 import { buildManaAuthorization } from './mana'
 
 describe('when building the MANA authorization', () => {
@@ -28,8 +28,8 @@ describe('when building the MANA authorization', () => {
         type: AuthorizationType.ALLOWANCE,
         address: address,
         contractName: ContractName.MANAToken,
-        contractAddress: '0x0f5d2fb29fb7d3cfee444a200298f468908cc942',
-        authorizedAddress: '0x8e5660b4ab70168b5a6feea0e0315cb49c8cd539',
+        contractAddress: '0x9b591bf99ae5818aa19fe171099d048039d3eced',
+        authorizedAddress: '0xebdbc5473ef31a083f35de9863d254b9d9b0b7a5',
         chainId: ChainId.ETHEREUM_MAINNET
       })
     })

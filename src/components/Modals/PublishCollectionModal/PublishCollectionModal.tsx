@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { Network } from '@dcl/schemas'
 import { env } from 'decentraland-commons'
-import { ModalNavigation, Button, Mana, Loader, Field, InputOnChangeData, Form } from 'decentraland-ui'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { ModalNavigation, Button, Mana, Loader, Field, InputOnChangeData, Form } from 'decentrastates-ui'
+import Modal from 'decentrastates-dapps/dist/containers/Modal'
+import { t, T } from 'decentrastates-dapps/dist/modules/translation/utils'
 import { fromWei } from 'web3x/utils'
 import { ItemRarity } from 'modules/item/types'
 import { getBackgroundStyle } from 'modules/item/utils'
@@ -155,7 +155,7 @@ export default class PublishCollectionModal extends React.PureComponent<Props, S
           {t('publish_collection_modal.third_paragraph')}
           <div className="divider"></div>
           {t('publish_collection_modal.fourth_paragraph')}{' '}
-          <a href="https://docs.decentraland.org/wearables/publishing-wearables" rel="noopener noreferrer" target="_blank">
+          <a href="https://docs.ftc.tc/wearables/publishing-wearables" rel="noopener noreferrer" target="_blank">
             {t('global.learn_more')}
           </a>
           <Button primary fluid onClick={this.handleNextStep}>
@@ -183,12 +183,12 @@ export default class PublishCollectionModal extends React.PureComponent<Props, S
                 id="publish_collection_modal.tos_first_condition"
                 values={{
                   terms_of_use: (
-                    <a href="https://decentraland.org/terms/" rel="noopener noreferrer" target="_blank">
+                    <a href="https://ftc.tc/terms/" rel="noopener noreferrer" target="_blank">
                       {t('publish_collection_modal.terms_of_use')}
                     </a>
                   ),
                   content_policy: (
-                    <a href="https://decentraland.org/content/" rel="noopener noreferrer" target="_blank">
+                    <a href="https://ftc.tc/content/" rel="noopener noreferrer" target="_blank">
                       {t('publish_collection_modal.content_policy')}
                     </a>
                   )
@@ -200,7 +200,7 @@ export default class PublishCollectionModal extends React.PureComponent<Props, S
           </div>
           <Field
             label={t('global.email')}
-            placeholder={'email@decentraland.org'}
+            placeholder={'email@ftc.tc'}
             onFocus={this.handleEmailFocus}
             onBlur={this.handleEmailBlur}
             onChange={this.handleEmailChange}

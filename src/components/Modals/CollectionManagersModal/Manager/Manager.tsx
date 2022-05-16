@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import { shorten } from 'lib/address'
 import Profile from 'components/Profile'

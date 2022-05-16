@@ -1,4 +1,4 @@
-import { EntityType, EntityVersion } from 'dcl-catalyst-commons'
+import { EntityType, EntityVersion } from 'dcs-catalyst-commons'
 import {
   fetchEntitiesByIdsFailure,
   fetchEntitiesByIdsRequest,

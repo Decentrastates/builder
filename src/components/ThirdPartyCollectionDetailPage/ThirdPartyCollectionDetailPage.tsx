@@ -16,9 +16,9 @@ import {
   Checkbox,
   CheckboxProps,
   Loader
-} from 'decentraland-ui'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
-import { ContractName } from 'decentraland-transactions'
+} from 'decentrastates-ui'
+import { t, T } from 'decentrastates-dapps/dist/modules/translation/utils'
+import { ContractName } from 'decentrastates-transactions'
 import { getArrayOfPagesFromTotal } from 'lib/api/pagination'
 import { locations } from 'routing/locations'
 import { isUserManagerOfThirdParty } from 'modules/thirdParty/utils'

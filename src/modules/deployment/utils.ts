@@ -1,6 +1,6 @@
 import path from 'path'
 import uuid from 'uuid'
-import { EntityContentItemReference } from 'dcl-catalyst-commons'
+import { EntityContentItemReference } from 'dcs-catalyst-commons'
 const CID = require('cids')
 const MemoryDatastore = require('interface-datastore').MemoryDatastore
 const pull = require('pull-stream')

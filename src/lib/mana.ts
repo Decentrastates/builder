@@ -1,6 +1,6 @@
 import { ChainId } from '@dcl/schemas'
-import { Authorization, AuthorizationType } from 'decentraland-dapps/dist/modules/authorization/types'
-import { ContractName, getContract } from 'decentraland-transactions'
+import { Authorization, AuthorizationType } from 'decentrastates-dapps/dist/modules/authorization/types'
+import { ContractName, getContract } from 'decentrastates-transactions'
 
 const MANA_SYMBOL = '⏣'
 

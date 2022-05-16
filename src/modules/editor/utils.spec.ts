@@ -14,8 +14,8 @@ describe('when extracting the base URL of a wearable', () => {
 
   describe('and the URL contains the /content/content path with a hash', () => {
     it('should return the base URL', () => {
-      expect(extractBaseUrl('https://peer-ec1.decentraland.org/content/contents/QmYktkLr5rnn9zPPARkavhVowvTNTih8uWq8BVscTGxtZD')).toEqual(
-        'https://peer-ec1.decentraland.org/content/contents/'
+      expect(extractBaseUrl('https://peer-ec1.ftc.tc/content/contents/QmYktkLr5rnn9zPPARkavhVowvTNTih8uWq8BVscTGxtZD')).toEqual(
+        'https://peer-ec1.ftc.tc/content/contents/'
       )
     })
   })
@@ -30,7 +30,7 @@ describe('when extracting the hash of a wearable', () => {
 
   describe('and the URL contains the /content/content path with a hash', () => {
     it('should return the hash', () => {
-      expect(extractHash('https://peer-ec1.decentraland.org/content/contents/QmYktkLr5rnn9zPPARkavhVowvTNTih8uWq8BVscTGxtZD')).toEqual(
+      expect(extractHash('https://peer-ec1.ftc.tc/content/contents/QmYktkLr5rnn9zPPARkavhVowvTNTih8uWq8BVscTGxtZD')).toEqual(
         'QmYktkLr5rnn9zPPARkavhVowvTNTih8uWq8BVscTGxtZD'
       )
     })

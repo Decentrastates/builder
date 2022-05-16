@@ -1,4 +1,4 @@
-import { EntityType } from 'dcl-catalyst-commons'
+import { EntityType } from 'dcs-catalyst-commons'
 import { Project, Layout } from 'modules/project/types'
 
 export type ContentIdentifier = {

@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Header } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Header } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import Icon from 'components/Icon'
 import { Props } from './SidebarCard.types'

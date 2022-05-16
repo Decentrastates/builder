@@ -14,10 +14,10 @@ import {
   FieldProps,
   Mana,
   Card
-} from 'decentraland-ui'
-import { NetworkButton } from 'decentraland-dapps/dist/containers'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+} from 'decentrastates-ui'
+import { NetworkButton } from 'decentrastates-dapps/dist/containers'
+import Modal from 'decentrastates-dapps/dist/containers/Modal'
+import { T, t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import Info from 'components/Info'
 import { isValid } from 'lib/address'

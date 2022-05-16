@@ -1,4 +1,4 @@
-import { NavbarProps } from 'decentraland-ui'
+import { NavbarProps } from 'decentrastates-ui'
 import { Dispatch } from 'redux'
 
 export type Props = NavbarProps

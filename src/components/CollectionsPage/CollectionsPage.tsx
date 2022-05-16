@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Container, Row, Column, Header, Card, Button, Dropdown, Table, Section, Tabs, Loader } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Container, Row, Column, Header, Card, Button, Dropdown, Table, Section, Tabs, Loader } from 'decentrastates-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import { NavigationTab } from 'components/Navigation/Navigation.types'
 import LoggedInDetailPage from 'components/LoggedInDetailPage'

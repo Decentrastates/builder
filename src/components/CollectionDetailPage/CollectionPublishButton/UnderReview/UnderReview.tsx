@@ -1,6 +1,6 @@
 import React from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Button, Popup } from 'decentraland-ui'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
+import { Button, Popup } from 'decentrastates-ui'
 import { Props } from './UnderReview.types'
 
 const UnderReview = ({ type }: Props) => (

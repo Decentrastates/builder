@@ -1,5 +1,5 @@
 import React from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import { Props } from './PromoBanner.types'
 

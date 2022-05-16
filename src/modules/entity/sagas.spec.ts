@@ -1,5 +1,5 @@
-import { CatalystClient } from 'dcl-catalyst-client'
-import { Entity, EntityType, EntityVersion } from 'dcl-catalyst-commons'
+import { CatalystClient } from 'dcs-catalyst-client'
+import { Entity, EntityType, EntityVersion } from 'dcs-catalyst-commons'
 import { expectSaga } from 'redux-saga-test-plan'
 import { call } from 'redux-saga/effects'
 import {

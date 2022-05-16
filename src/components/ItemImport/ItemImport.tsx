@@ -1,13 +1,13 @@
 import * as React from 'react'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Loader, Row } from 'decentraland-ui'
+import { t, T } from 'decentrastates-dapps/dist/modules/translation/utils'
+import { Loader, Row } from 'decentrastates-ui'
 import FileImport from 'components/FileImport'
 import { InfoIcon } from 'components/InfoIcon'
 import { Props } from './ItemImport.types'
 import styles from './ItemImport.module.css'
 
 export default class ItemImport extends React.PureComponent<Props, any> {
-  handleOpenDocs = () => window.open('https://docs.decentraland.org/3d-modeling/3d-models/', '_blank')
+  handleOpenDocs = () => window.open('https://docs.ftc.tc/3d-modeling/3d-models/', '_blank')
 
   renderDropzoneCTA = (open: () => void) => {
     const { error, isLoading, acceptedExtensions, moreInformation } = this.props

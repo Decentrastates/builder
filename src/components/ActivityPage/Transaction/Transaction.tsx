@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { getContractName } from 'decentraland-transactions'
+import { T, t } from 'decentrastates-dapps/dist/modules/translation/utils'
+import { getContractName } from 'decentrastates-transactions'
 import {
   GrantTokenSuccessAction,
   RevokeTokenSuccessAction,
   GRANT_TOKEN_SUCCESS,
   REVOKE_TOKEN_SUCCESS
-} from 'decentraland-dapps/dist/modules/authorization/actions'
-import { TransactionLink } from 'decentraland-dapps/dist/containers'
+} from 'decentrastates-dapps/dist/modules/authorization/actions'
+import { TransactionLink } from 'decentrastates-dapps/dist/containers'
 import { locations } from 'routing/locations'
 import {
   TRANSFER_LAND_SUCCESS,

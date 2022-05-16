@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Popup, Row, Close } from 'decentraland-ui'
-import { getLocalStorage } from 'decentraland-dapps/dist/lib/localStorage'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Popup, Row, Close } from 'decentrastates-ui'
+import { getLocalStorage } from 'decentrastates-dapps/dist/lib/localStorage'
+import { t } from 'decentrastates-dapps/dist/modules/translation/utils'
 
 import Icon from 'components/Icon'
 import ShortcutTooltip from 'components/ShortcutTooltip'

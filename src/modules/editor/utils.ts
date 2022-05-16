@@ -38,7 +38,7 @@ export function getNewEditorScene(project: Project): EditorScene {
     owner: 'Decentraland',
     contact: {
       name: 'Decentraland',
-      email: 'support@decentraland.org'
+      email: 'support@ftc.tc'
     },
     main: 'game.js',
     _mappings: mappings

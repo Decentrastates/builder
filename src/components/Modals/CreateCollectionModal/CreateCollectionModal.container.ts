@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { getAddress } from 'decentrastates-dapps/dist/modules/wallet/selectors'
+import { isLoadingType } from 'decentrastates-dapps/dist/modules/loading/selectors'
 import { RootState } from 'modules/common/types'
 import { getLoading, getError } from 'modules/collection/selectors'
 import { SAVE_COLLECTION_REQUEST, saveCollectionRequest } from 'modules/collection/actions'
