@@ -75,7 +75,7 @@ export function isEqualContent(ens: ENS, land: Land) {
 }
 
 export function getDomainFromName(name: string): string {
-  return `${name.toLowerCase()}.dcl.eth`
+  return `${name.toLowerCase()}.dcs.eth`
 }
 
 export function isEnoughClaimMana(mana: string) {

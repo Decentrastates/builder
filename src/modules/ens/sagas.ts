@@ -76,7 +76,7 @@ function* handleConnectWallet() {
 
 function* handleFetchENSRequest(action: FetchENSRequestAction) {
   const { name, land } = action.payload
-  const subdomain = name.toLowerCase() + '.dcl.eth'
+  const subdomain = name.toLowerCase() + '.dcs.eth'
   try {
     const [wallet, eth]: [Wallet, Eth] = yield getWallet()
     const address = wallet.address
@@ -240,7 +240,7 @@ function* handleFetchENSListRequest(_action: FetchENSListRequestAction) {
       Promise.all(
         domains.map(async data => {
           const name = data
-          const subdomain = `${data.toLowerCase()}.dcl.eth`
+          const subdomain = `${data.toLowerCase()}.dcs.eth`
           let landId: string | undefined = undefined
           let content: string = ''
 
