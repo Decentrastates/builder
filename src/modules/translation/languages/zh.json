@@ -7,7 +7,7 @@
   "authorization_modal": {
     "title": "授权{token}",
     "description": "欲继续操作，您需要授权{contract}合同代表您操作{token}令牌。只需执行一次.",
-    "authorize": "授权{contract_link}合约代表您操作{symbol}",
+    "authorize": "授权{contract_link}合约代表您操作{symbol} ",
     "pending_tx": "待处理的交易，请单击微调器以转到活动详细状态"
   },
   "add_existing_item_modal": {
@@ -21,13 +21,13 @@
   },
   "asset_pack": {
     "confirm_delete": {
-      "action": "清除Asset Pack",
+      "action": "清除资产包",
       "back": "御宇",
-      "description": "您将要删除它Asset Pack。此操作无法撤消。",
+      "description": "您将要删除资产包。此操作无法撤消。",
       "title": "你确定吗？"
     },
-    "default_name": "我的Asset Pack",
-    "default_name_suffix": "我的Asset Pack ({suffix})",
+    "default_name": "我的资产包",
+    "default_name_suffix": "我的资产包 ({suffix})",
     "edit_asset": {
       "action": "继续",
       "action_skip": "跳过评论",
@@ -52,65 +52,65 @@
         "label": "标签",
         "placeholder": "例如 （户外家具楼）"
       },
-      "title_edit": "修改Asset Pack"
+      "title_edit": "修改资产包"
     },
     "edit_assetpack": {
-      "action_add_items": "加Assets",
-      "action_create": "创造Asset Pack",
-      "action_delete": "删除Asset Pack",
-      "action_edit": "救Asset Pack",
-      "description_create": "真棒！输入Asset Pack的唯一名称",
-      "description_edit": "真棒！ 输入您的唯一名称Asset Pack. 单击资产进行编辑。",
+      "action_add_items": "添加资产",
+      "action_create": "创造资产包",
+      "action_delete": "删除资产包",
+      "action_edit": "保存资产包",
+      "description_create": "真棒！输入资产包的唯一名称",
+      "description_edit": "真棒！ 输入您资产包的唯一名称. 单击资产进行编辑。",
       "errors": {
-        "max_title_length": "Asset Pack标题最多只能包含{count}个字符",
-        "min_title_length": "Asset Pack名称的长度必须至少为{count}个字符",
+        "max_title_length": "资产包标题最多只能包含{count}个字符",
+        "min_title_length": "资产包名称的长度必须至少为{count}个字符",
         "thumbnail_size": "图像文件大小必须小于 {size}"
       },
       "items": {
-        "empty": "这Asset Pack个西是空的",
+        "empty": "这资产包是空的",
         "label": "{count} {count, plural, one {Asset} other {Assets}}"
       },
       "name": {
         "label": "名称",
-        "placeholder": "我的新Asset Pack"
+        "placeholder": "我的新资产包"
       },
       "reset": "添加新Assets",
-      "title_edit": "修改Asset Pack"
+      "title_edit": "修改资产包"
     },
     "exit": {
       "action": "出口",
       "back": "回去",
-      "description_create": "您即将退出Asset Pack创建，您要继续吗",
-      "description_edit": "您即将退出Asset Pack更新，您要继续吗？",
+      "description_create": "您即将退出资产包创建，您要继续吗",
+      "description_edit": "您即将退出资产包更新，您要继续吗？",
       "title_create": "你确定吗？",
       "title_edit": "你确定吗？"
     },
     "import": {
-      "action": "导入{资产}",
+      "action": "导入资产",
       "action_many": "导入{count} Asset",
       "cta": "将Asset的{models_link}文件拖到此处，或{action}",
-      "description_create": "首先将模型添加到Asset Pack",
-      "description_edit": "向您添加更多项目Asset Pack",
+      "description_create": "首先将模型添加到资产包",
+      "description_edit": "向您添加更多项目资产包",
       "errors": {
         "duplicated": "重复资产",
         "duplicated_asset": "{name}：此资产包中已经有一个名为\"{existingAsset}\"的资产，其ID为\"{id}\"，请将\"{newAsset}\"的ID更改为另一种",
         "invalid": "无效资产",
         "max_file_size": "{name}: 文件大小超过{max}mb的限制"
       },
-      "title_edit": "创造Asset Pack"
+      "title_edit": "创造资产包"
     },
-    "new_asset_pack": "新的Asset Pack",
+    "new_asset_pack": "新的资产包",
     "progress": {
-      "creating_asset_pack": "创建Asset Pack",
-      "updating_asset_pack": "更新Asset Pack",
-      "uploading_contents": "正在上传Asset Pack内容"
+      "creating_asset_pack": "创建资产包",
+      "updating_asset_pack": "更新资产包",
+      "uploading_contents": "正在上传资产包内容"
     },
     "success": {
       "continue": "继续工作",
-      "description": "您的Asset Pack已成功上传。 查看项目抽屉以开始使用它。",
+      "description": "您的资产包已成功上传。 查看项目抽屉以开始使用它。",
       "title": "全部做完！"
     },
-    "title_create": "创造Asset Pack"
+    "title_create": "创造资产包"
   },
   "banners": {
     "promo_subtitle": "自定义资产包现在在Decentraland中可用！",
@@ -169,8 +169,8 @@
   },
   "claim_ens_page": {
     "title": "索取唯一名称",
-    "subtitle": "可以将唯一名称分配给您的化身以用作别名，也可以将它们分配给宗地和地产。{br}为宗地或地产分配名称可以使您创建唯一的URL，例如{exampleLink} 轻松将人们送往您的LAND。 当有人使用您的新网址时，他们将在{dclWorldLink}中重定向到您的LAND{br} 名称仅在以太坊中提供，并且只能使用以太坊 MANA {symbol} 进行认领",
-    "world": "Decentraland!",
+    "subtitle": "可以将唯一名称分配给您的化身以用作别名，也可以将它们分配给土地和地产。{br}为宗地或地产分配名称可以使您创建唯一的URL，例如{exampleLink} 轻松将人们送往您的土地。 当有人使用您的新网址时，他们将在{dclWorldLink}中重定向到您的土地{br} 名称仅在以太坊中提供，并且只能使用以太坊 MANA {symbol} 进行认领",
+    "world": "元宇宙!",
     "name_label": "名称",
     "name_message": "名称不得超过15个字符，不得包含空格或任何非字母数字字符。",
     "name_placeholder": "你的名字在这里",
@@ -178,7 +178,7 @@
     "error_message": "网络出现错误，请重试",
     "radio_label": "MANA批准",
     "claim_button": "要求 ",
-    "feed_mana_message": "授权{contract_link}合同代表您操作MANA",
+    "feed_mana_message": "授权 {contract_link} 合同代表您操作 MANA 代币资产",
     "mana_not_allowed": "您需要授权足够的MANA才能申请新名称",
     "not_enough_mana": "您没有足够的MANA来申请新名称"
   },
@@ -226,7 +226,7 @@
       "saved_items_table_title": "更新项目"
     },
     "wrong_file_extension": "文件扩展名不正确。",
-    "asset_file_not_found": "找不到asset.json 文件。",
+    "asset_file_not_found": "找不到 asset.json 文件。",
     "thumbnail_file_not_generated": "无法生成 thumbnail.png 文件。",
     "not_saved_items_table_title": "Invalid items",
     "cancelled_items_table_title": "Cancelled items",
@@ -348,9 +348,9 @@
       "title": "发布场景"
     },
     "option_land": {
-      "action": "布署到 LAND 土地",
-      "description": "布署场景到 LAND 土地或 Estate 连块土地.",
-      "title": "我的 LAND 土地"
+      "action": "部署到土地上",
+      "description": "部署场景到土地（LAND）或连块土地（Estate）。",
+      "title": "我的土地"
     },
     "option_pool": {
       "action": "应用",
@@ -380,8 +380,8 @@
   "use_as_alias_modal": {
     "title": "为头像分配名称",
     "subtitle": "为您的头像分配新的别名",
-    "body": "使用{newName}作为头像的新别名。 唯一名称是帮助您的朋友在Metaverse中找到您的好方法！ 这将替换{oldName}。",
-    "success": "{name}是您在Metaverse中的新别名！ 环游世界时，让其他人看到您的新名字。"
+    "body": "使用{newName}作为头像的新别名。 唯一名称是帮助您的朋友在元宇宙中找到您的好方法！ 这将替换{oldName}。",
+    "success": "{name}是您在元宇宙中的新别名！ 环游世界时，让其他人看到您的新名字。"
   },
   "deployment_contest_modal": {
     "action": "参加比赛",
@@ -439,7 +439,7 @@
       "use_as_alias": "用作别名"
     },
     "empty_names": "看来您没有任何名称。{br} {link}开始使用。",
-    "items": "{count}结果",
+    "items": "{count} 个结果",
     "alias_popup": "您的个人资料正在使用此名称，但仍可以分配"
   },
   "estate_editor": {
@@ -479,7 +479,7 @@
     "email": "email",
     "error_ocurred": "出错了",
     "eth_address": "ETH 地址",
-    "finish": "完",
+    "finish": "完成",
     "free": "自由",
     "here": "这里",
     "item": "物品",
@@ -489,7 +489,7 @@
     "new": "新",
     "new_scene": "新场景",
     "delete": "删除",
-    "edit": "辑",
+    "edit": "编辑",
     "next": "下一个",
     "optional": "可选",
     "or": "或",
@@ -570,7 +570,7 @@
     "subtitle": "易于使用的工具和数以百计的 3D 素材，使得场景设计充满乐趣。快来释放您的创造力吧。",
     "templates_title": "请先选择场景大小",
     "title": "设计酷炫场景！",
-    "results": "{count}结果",
+    "results": "{count} 个结果",
     "from_scene_pool": "自场景池"
   },
   "import_modal": {
@@ -636,7 +636,7 @@
     "type": "类型",
     "online_scenes": "在线场景",
     "none": "无",
-    "results": "{count}个结果",
+    "results": "{count} 个结果",
     "owner_permission": "这些是您不拥有的土地，但所有者授予您使用它们的许可。"
   },
   "land_detail_page": {
@@ -795,7 +795,7 @@
       "unpublish": "取消发布"
     },
     "published_in": "出版于",
-    "no_deployments": "此场景尚未在Metaverse中发布。",
+    "no_deployments": "此场景尚未在元宇宙中发布。",
     "online": "线上",
     "unsynced": "未同步",
     "status": "状态",
@@ -831,7 +831,7 @@
     "title": "快捷键"
   },
   "sync": {
-    "error": "{errorCount} {errorCount, plural, one {场景} other {场景}} 无法上传",
+    "error": "{errorCount} {errorCount, plural, one {个场景} other {个场景}} 无法上传",
     "loading": "上传中...",
     "retry": "重试",
     "success": "所有场景成功保存！"
@@ -975,16 +975,16 @@
     "sign_in": "登入"
   },
   "collections_page": {
-    "results": "{count} {count，复数，一个{result}其他{results}}",
-    "no_items": "有项目",
-    "new_item": "项目",
+    "results": "{count} {count, plural, one {个结果} other {个结果}}",
+    "no_items": "没有项目",
+    "new_item": "新项目",
     "new_collection": "收藏",
     "new_third_party_collection": "新的链接可穿戴设备系列",
     "type": "类型",
     "items": "模型",
     "collections": "收藏品",
     "single_items": "单品",
-    "empty_description": "您还没有商品或收藏。 创建一个新项目或收藏集，并为metaverse装扮时尚！"
+    "empty_description": "您还没有商品或收藏。 创建一个新项目或收藏集，并为元宇宙装扮时尚！"
   },
   "curation_page": {
     "order": {
@@ -1059,7 +1059,7 @@
   },
   "third_party_collection_detail_page": {
     "notice": "每个发布的项目占用 1 个 Slot。在 DAO 中创建提案草案以申请更多插槽",
-    "search_placeholder": "搜索 {count} {count, plural, one {物品} other {项目}}...",
+    "search_placeholder": "搜索 {count} {count, plural, one {个物品} other {个项目}}...",
     "search_info": "{page}-{pageTotal} 个，共 {total} 个",
     "clear_selection": "清空选项",
     "select_all": "选择所有 {total} 项",
@@ -1074,9 +1074,9 @@
     "push_changes": "推送更改",
     "publish_and_push_changes": "发布和推送更改",
     "cant_publish": "此集合仍在审核中，一旦该过程结束，您将能够发布更多项目",
-    "cant_publish_items": "您正在尝试发布 {count} {count，复数，一个 {item} 其他 {items}}。目前还有其他人正在审查中",
+    "cant_publish_items": "您正在尝试发布  {count} {count, plural, one {item} other {items}}。目前还有其他人正在审查中",
     "exceeds_available_slots": "您超出了可用插槽的数量。在 DAO 中创建提案以添加更多插槽",
-    "cant_publish_and_push_changes": "您正在尝试发布 {count} {count，复数，一个 {item} 其他 {items}} 并同时推送更改。取消选择要发布的项目以推送更改"
+    "cant_publish_and_push_changes": "您正在尝试发布  {count} {count, plural, one {item} other {items}} 并同时推送更改。取消选择要发布的项目以推送更改"
   },
   "collection_detail_page": {
     "new_item": "新物品",
@@ -1168,7 +1168,7 @@
     "second_paragraph": "发布收藏集后，您将无法添加或删除项目",
     "third_paragraph": "您将无法更改集合的名称。请确保拼写正确且不侵犯知识产权。",
     "fourth_paragraph": "您收藏中的物品将出现在市场中，但只有获得批准，才能出售。",
-    "items_breakdown_title": "“您即将发布{count} {count, 复数，一个{item} 其他{items}}。您需要Polygon MANA 来支付交易费用，所有这些费用都交给Decentraland DAO。DAO 使用这个MANA 来支付 用于对您提交的内容进行技术审查，并通过赠款、活动和奖品支持社区的发展”",
+    "items_breakdown_title": "“您即将发布 {count} {count, plural, one {item} other {items}}。您需要Polygon MANA 来支付交易费用，所有这些费用都交给 DAO。DAO 使用这个 MANA 来支付用于对您提交的内容进行技术审查，并通过赠款、活动和奖品支持社区的发展”",
     "tos_title": "我在此声明并保证：",
     "tos_first_condition": "1：提交穿戴式是完全符合{TERMS_OF_USE}和{} content_policy，我承认并接受。",
     "tos_second_condition": "2：我对提交的穿戴式拥有足够的知识产权。",
@@ -1198,7 +1198,7 @@
     "total_in_mana": "MANA 中的总计",
     "rarities_error": "尝试获取出版费时出错。",
     "tos_title": "我在此声明并保证：",
-    "tos_first_condition": "1：提交穿戴式是完全符合{TERMS_OF_USE}和{} content_policy，我承认并接受。",
+    "tos_first_condition": "1：提交穿戴式是完全符合{terms_of_use}和{content_policy}，我承认并接受。",
     "tos_second_condition": "2：我对提交的穿戴式拥有足够的知识产权。",
     "tos_third_condition": "3：我承认，DAO 可能会因违反内容政策和使用条款而拒绝创建穿戴式。 我也承认，如果被拒绝，将不会退还提案费。",
     "invalid_email": "给定的电子邮件无效。",
@@ -1206,8 +1206,8 @@
     "content_policy": "内容政策",
     "accept_by_publishing": "通过点击发表您接受我们的条件",
     "publish": "发布",
-    "not_enough_mana": "您没有足够的{symbol} 来发布此收藏集。",
-    "get_mana": "您可以使用{link} dapp获得更多信息。",
+    "not_enough_mana": "您没有足够的 {symbol} 来发布此收藏集。",
+    "get_mana": "您可以使用 {link} dapp获得更多信息。",
     "unsynced_collection": "您尝试发布的集合中的项与服务器上的项存在差异。请刷新浏览器，然后重试。"
   },
   "sell_collection_modal": {
@@ -1240,9 +1240,9 @@
   },
   "publish_third_party_collection_modal": {
     "title": "发布链接项目",
-    "publish_description": "即将使用 {availableSlots} 个可用插槽中的 {slotsToUse，复数，一个 {# slot} 其他 {# slot}} 来发布 \"{collectionName}\"。",
-    "push_changes_description": "即将对 \"{collectionName}\" 推送对 {itemsWithChanges, 复数，一个 {# item} 其他 {# items}} 的更改。",
-    "publish_and_push_changes_description": "即将使用 {slotsToUse，复数，一个 {# slot} 其他 {# slot}} 来自 {availableSlots} 可用插槽来发布 \"{collectionName}\"，并且更改将被推送到 {itemsWithChanges，复数，一个 {# item}其他项目}}。"
+    "publish_description": "即将使用 {availableSlots} 个可用插槽中的 {slotsToUse, plural, one {# slot} other {# slots}} 来发布 \"{collectionName}\"。",
+    "push_changes_description": "即将对 \"{collectionName}\" 推送对 {itemsWithChanges, plural, one {# item} other {# items}} 的更改。",
+    "publish_and_push_changes_description": "即将使用 {itemsWithChanges, plural, one {# item} other {# items}} 来自 {availableSlots} 可用插槽来发布 \"{collectionName}\"，并且更改将被推送到 {itemsWithChanges, plural, one {# item} other {# items}}。"
   },
   "mint_items_modal": {
     "title": "薄荷项目",
@@ -1397,7 +1397,7 @@
     "blog_link": "博客文章",
     "account_link": "帐户dApp",
     "manage_account": "管理帐户",
-    "content": "Polygon MANA将使您更快地进行购买。{br}您可以在我们的{blog_link}中了解有关Polygon MANA的更多信息。{br}您还可以在新的{ account_link}。{br}点击您的头像，选择{manage_account}，然后开始征服Metaverse。",
+    "content": "Polygon MANA将使您更快地进行购买。{br}您可以在我们的{blog_link}中了解有关Polygon MANA的更多信息。{br}您还可以在新的{ account_link}。{br}点击您的头像，选择{manage_account}，然后开始征服元宇宙。",
     "dismiss": "知道了！"
   },
   "toast": {
@@ -1434,7 +1434,7 @@
   "editor_preview": {
     "loading_unity_and_base_wearables": "正在加载 Unity 和基础可穿戴设备...",
     "loading_base_wearables": "正在加载基础可穿戴设备...",
-    "loading_unity": "正在加载统一..."
+    "loading_unity": "正在加载 Unity ..."
   },
   "approval_flow": {
     "loading": {
